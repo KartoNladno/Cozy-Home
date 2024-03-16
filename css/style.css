@@ -1,0 +1,338 @@
+:root {
+    :root {
+        --font-family: "Georgia", sans-serif;
+        --second-family: "Arial", sans-serif;
+
+        --color-light-xl: #fff;
+        --color-light-l: #f6f6f6;
+        --color-light-s: #fafafa;
+        --color-dark-s: #cdcdcd;
+        --color-dark-m: #b2b2b2;
+        --color-dark-l: #545454;
+        --color-dark-xl: #4c4c4c;
+        --color-dark-2xl: #444;
+        --color-dark-3xl: #292929;
+        --color-primary: #f1cdb3;
+        --color-primary-light: #fddcc4;
+        --start-screen-gradient-background: #211f20;
+        --footer-gradient-background: #211f20;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+
+}
+
+body,
+html {
+    height: 100%;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.visit {
+    background-image: url(../img/start-screen-gradient-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.visit__name {}
+
+.visit__subtitle {
+
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: rgb(198, 177, 138);
+    margin-top: 10px;
+
+}
+
+.visit__subdesc {
+
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    color: white;
+
+
+}
+
+.visit__list {
+    display: flex;
+    justify-content: space-between;
+    margin: right 40px;
+
+    margin-top: 46px;
+}
+
+.container__list {}
+
+
+
+.visit__item:hover {
+    text-decoration: underline;
+    color: bisque;
+
+}
+
+
+.visit__item {
+    color: rgb(255, 255, 255);
+    margin-right: 35px;
+
+}
+
+.visit__item:hover {
+    color: rgb(255, 255, 255);
+    margin-right: 35px;
+    color: beige;
+}
+
+.visit__welcome {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+
+
+}
+
+.visit__desc {
+    margin-top: 150px;
+}
+
+.visit__title {
+    font-weight: 400;
+    color: beige;
+    font-size: 44px;
+    line-height: 130%;
+}
+
+.visit__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: antiquewhite;
+    width: 472px;
+    margin-bottom: 42px;
+    margin-top: 42px;
+}
+
+
+.visit__btn {
+    border-radius: 100px;
+    padding: 15px 45px;
+    width: 207px;
+    height: 52px;
+
+    background-color: wheat;
+    color: black;
+}
+
+.container__btn {}
+
+.visit__img-wrap {}
+
+.visit__img {
+    width: 100%;
+
+}
+
+
+
+.info {
+    width: 1280px;
+    height: 588px;
+}
+
+.info__container {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 94px;
+}
+
+.info__img-wrap {
+    margin-left: 215px;
+    width: 300px;
+    height: 408px;
+}
+
+.info__img {
+    margin-left: 215px;
+
+}
+
+
+
+.info__content {
+    width: 430px;
+    height: 380px;
+
+}
+
+.info__title {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+}
+
+.section__title {}
+
+.info__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    margin: 25px 0px 25px 0px;
+
+}
+
+
+.friends {
+
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+}
+
+
+
+.friends__container {
+    width: 1200px;
+    height: 697px;
+
+}
+
+.friends__title {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    margin-bottom: 60px;
+    padding-top: 80px;
+    margin-left: 110px;
+
+}
+
+.friends__info {
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+
+.friends__Katrine {
+    border-radius: 9px;
+    padding: 30px 35px;
+
+    background-color: white;
+    margin: 0px 90px 0px 90px;
+
+}
+
+.friends__img {}
+
+.friends__name {
+
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.friends__sub-button {
+    border: 2px solid rgb(204, 190, 162);
+    border-radius: 100px;
+    padding: 15px 45px;
+    width: 187px;
+    height: 52px;
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+.friends__Jennifer {
+    border-radius: 9px;
+    padding: 30px 35px;
+    width: 270px;
+    height: 435px;
+    background-color: white;
+    margin: 0px 90px 0px 90px;
+
+}
+
+.friends__Woody {
+    border-radius: 9px;
+    padding: 30px 35px;
+    width: 270px;
+    height: 435px;
+    background-color: white;
+    margin: 0px 90px 0px 90px;
+
+}
+
+.friends__btn {
+
+    border-radius: 100px;
+    padding: 15px 45px;
+    width: 261px;
+    height: 52px;
+
+    background-color: rgb(233, 209, 165);
+    margin-top: 60px;
+    color: black;
+    margin-left: 545px;
+
+}
