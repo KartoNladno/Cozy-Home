@@ -381,3 +381,81 @@ a {
 .helper__subimg-wrap {}
 
 .helper__icon-wrap {}
+
+
+.donation {}
+
+.donation__container {}
+
+.container {}
+
+.dontaion__content-wrap {
+    width: 915px;
+    height: 282px;
+    display: flex;
+}
+
+.donation__img-wrap {
+    width: 505px;
+    height: 261px;
+}
+
+.donation__img {
+    width: 100%;
+}
+
+.donation__content {
+    width: 380px;
+    height: 282px;
+    margin-left: 30px;
+}
+
+.donation__title {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+
+}
+
+.donation__subtitle {
+
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    margin: 20px 0px 20px 0px;
+}
+
+.donation__pay {
+    border-radius: 9px;
+    padding: 10px 15px;
+    width: 349px;
+    height: 43px;
+    background-color: rgb(212, 191, 150);
+    display: flex;
+}
+
+.donation__pay-img {
+    margin-bottom: 10px;
+}
+
+.donation__pay-numbers {
+    margin-left: 15px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+
+}
+
+.donation__Text {
+    margin-top: 20px;
+
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #545454;
+}
