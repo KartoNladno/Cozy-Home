@@ -42,7 +42,7 @@
                         <div class="visit__text">We offer to give a chance to a little and nice puppy with an extremely
                             wide and open heart. He or she will love you more than anybody else in the world, you will
                             see!</div>
-                        <a href="" class="visit__btn container__btn">Make a friend</a>
+                        <a href="" class="visit__btn btn">Make a friend</a>
                     </div>
                     <div class="visit__img-wrap">
                         <img src="img/start-screen-puppy.png" alt="dog" class="visit__img">
@@ -71,35 +71,66 @@
             </div>
         </section>
         <section class="friends">
-            <div class="container friends__container">
-                <div class="friends__title">Our friends who <br>
-                    are looking for a house</div>
-                <div class="friends__info">
-                    <div class="friends__Katrine">
-                        <img src="img/pets-katrine.png" alt="" class="friends__img">
-                        <div class="friends__name">Katrine</div>
-                        <a href="">
-                            <div class="friends__sub-button">Learn More</div>
-                        </a>
-                    </div>
-                    <div class="friends__Jennifer">
-                        <img src="img/pets-jennifer.png" alt="" class="friends__img">
-                        <div class="friends__name">Jennifer</div>
-                        <a href="">
-                            <div class="friends__sub-button">Learn More</div>
-                        </a>
-                    </div>
-                    <div class="friends__Woody">
-                        <img src="img/pets-woody.png" alt="" class="friends__img">
-                        <div class="friends__name">Woody</div>
-                        <a href="">
-                            <div class="friends__sub-button">Learn More</div>
-                        </a>
+            <div class="container">
+                <div class="friends__content">
+                    <h2 class="friends__title section__title">Our friends who
+                        are looking for a house</h2>
+                    <div class="friends__slider slider">
+                        <ul class="slider__list">
+                            <li class="slider__item friend">
+                                <div class="friend__img-wrap"><img src="img/pets-katrine.png" alt="pets-katrine"
+                                        class="friend__img-wrap">
+                                </div>
+                                <div class="friend__desc">
+                                    <div class="friend__name">Katrine</div>
+                                    <button class="btn friend__btn">Learn More</button>
+                                </div>
+
+                            </li>
+                            <li class="slider__item friend">
+                                <div class="friend__img-wrap"><img src="img/pets-jennifer.png" alt="pets-katrine"
+                                        class="friend__img-wrap">
+                                </div>
+                                <div class="friend__desc">
+                                    <div class="friend__name">Jennifer</div>
+                                    <button class="btn friend__btn">Learn More</button>
+                                </div>
+
+                            </li>
+                            <li class="slider__item friend">
+                                <div class="friend__img-wrap"><img src="img/pets-woody.png" alt="pets-katrine"
+                                        class="friend__img-wrap">
+                                </div>
+                                <div class="friend__desc">
+                                    <div class="friend__name">Woody</div>
+                                    <button class="btn friend__btn">Learn More</button>
+                                </div>
+
+                            </li>
+                        </ul>
+                        <div class="slider__controls">
+                            <a href="" class="slider__control slider__control_left">
+                                <svg width="52" height="52" viewBox="0 0 52 52" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="1" y="1" width="50" height="50" rx="25" stroke="#F1CDB3"
+                                        stroke-width="2" />
+                                    <path d="M33 25V27H22V29L19 26L22 23V25H33Z" fill="#292929" />
+                                </svg>
+
+
+                            </a>
+                            <a href="" class="slider__control slider__control_right"><svg width="52" height="52"
+                                    viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="51" y="51" width="50" height="50" rx="25" transform="rotate(-180 51 51)"
+                                        stroke="#F1CDB3" stroke-width="2" />
+                                    <path d="M19 27V25H30V23L33 26L30 29V27H19Z" fill="#292929" />
+                                </svg></a>
+                        </div>
                     </div>
 
                 </div>
-                <div class="friends__btn-rest"><a href="" class="friends__btn">Get to know the rest</a></div>
             </div>
+
         </section>
         <section class="Helper">
             <div class="Helper__container">
@@ -108,7 +139,7 @@
                     our shelter</div>
                 <ul class="helper__list">
                     <li class="list-item">
-                        <div class="helper__subimg-wrap"><img src="img/icon/Vector.svg" alt="">
+                        <div class="helper__subimg-wrap pet-food"><img src="img/icon/Vector.svg" alt="">
                             <div class="helper__icon-wrap">Pet food</div>
                         </div>
                     </li>
@@ -136,7 +167,7 @@
                 <ul class="helper__list-2">
 
                     <li class="list-item">
-                        <div class="helper__subimg-wrap"><img src="img/icon/vitamins.svg" alt="">
+                        <div class="helper__subimg-wrap medicines"><img src="img/icon/vitamins.svg" alt="">
                             <div class="helper__icon-wrap">Vitamins</div>
                         </div>
                     </li>
@@ -164,14 +195,19 @@
             <div class="donation__container container">
                 <div class="dontaion__content-wrap">
                     <div class="donation__img-wrap">
-                        <div class="donation__img"><img src="/img/donation-dog.png" alt=""></div>
+                        <div class="donation__img"><img src="img/donation-dog.png" alt=""></div>
                     </div>
                     <div class="donation__content">
                         <div class="donation__title">You can also make a donation</div>
                         <div class="donation__subtitle">Name of the bank / Type of bank account</div>
                         <div class="donation__pay">
 
-                            <div class="donation__pay-img"><img src="img/icon/phone.svg" alt=""></div>
+                            <div class="donation__pay-img"><svg width="30" height="23" viewBox="0 0 30 23" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M25.9815 23H4.01915C1.80285 23 0 21.2046 0 19.0001V3.9999C0 1.79421 1.80285 0 4.01915 0H25.9808C28.196 0 30 1.79421 30 3.9999V19.0001C30.0006 21.2052 28.1972 23 25.9815 23ZM4.01915 1.14285C2.43563 1.14285 1.14836 2.42396 1.14836 3.9999V19.0001C1.14836 20.5755 2.43563 21.8571 4.01915 21.8571H25.9808C27.5638 21.8571 28.8516 20.5755 28.8516 19.0001V3.9999C28.8516 2.42396 27.5638 1.14285 25.9808 1.14285H4.01915ZM20.7037 3.35993C22.1363 3.35993 23.2977 4.51532 23.2977 5.94153C23.2977 7.36774 22.1368 8.52376 20.7037 8.52376C19.2706 8.52376 18.1097 7.36783 18.1097 5.94153C18.1097 4.51523 19.2712 3.35993 20.7037 3.35993ZM24.3204 3.35993C25.7529 3.35993 26.9151 4.51532 26.9151 5.94153C26.9151 7.36774 25.7536 8.52376 24.3204 8.52376C22.8873 8.52376 21.7264 7.36783 21.7264 5.94153C21.7264 4.51523 22.8879 3.35993 24.3204 3.35993ZM3.0861 16.3339H7.8683V18.0481H3.0861V16.3339ZM9.43467 16.3339H14.2175V18.0481H9.43467V16.3339ZM15.782 16.3339H20.5659V18.0481H15.782V16.3339ZM22.1305 16.3339H26.9144V18.0481H22.1305V16.3339ZM3.0861 3.36046H12.1263V5.07474H3.0861V3.36046ZM3.0861 6.76208H7.86946V8.47637H3.0861V6.76208Z"
+                                        fill="#292929" />
+                                </svg></div>
                             <div class="donation__pay-numbers"> 8380 2880 8028 8791 7435</div>
 
 

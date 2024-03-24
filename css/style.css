@@ -161,6 +161,15 @@ a {
     margin-top: 42px;
 }
 
+.btn {
+    border-radius: 100px;
+    padding: 15px 45px;
+
+    height: 52px;
+
+    background-color: wheat;
+    color: black;
+}
 
 .visit__btn {
     border-radius: 100px;
@@ -232,113 +241,50 @@ a {
 }
 
 
-.friends {
+
+
+.Helper {
     width: 1280px;
-    height: 877px;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
+    height: 611px;
 }
 
-
-
-.friends__container {
+.Helper__container {
     width: 1200px;
-    height: 697px;
-
+    height: 431px;
 }
 
-.friends__title {
+.helper__title {
+
     font-weight: 400;
     font-size: 35px;
     line-height: 130%;
     letter-spacing: 0.06em;
     text-align: center;
     margin-bottom: 60px;
-    padding-top: 80px;
-    margin-left: 130px;
+    margin-left: 485px;
 }
 
-.friends__info {
-
+.helper__list {
     display: flex;
     justify-content: space-between;
+}
 
+.list-item {
+    margin-left: 125px;
+    column-gap: 120px;
 
 }
 
 
+.helper__subimg-wrap {}
 
-.friends__Katrine {
-    border-radius: 9px;
-    padding: 30px 35px;
+.helper__icon-wrap {}
 
-    background-color: white;
-    margin: 0px 90px 0px 90px;
-
-
+.helper__list-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 210px;
 }
-
-.friends__img {}
-
-.friends__name {
-
-    font-weight: 400;
-    font-size: 20px;
-    letter-spacing: 0.06em;
-    text-align: center;
-    margin-top: 30px;
-
-}
-
-.friends__sub-button {
-    border: 2px solid rgb(204, 190, 162);
-    border-radius: 100px;
-    padding: 15px 45px;
-    width: 187px;
-    height: 52px;
-    text-align: center;
-    color: black;
-    margin-top: 30px;
-    margin-bottom: 30px;
-
-}
-
-
-.friends__Jennifer {
-    border-radius: 9px;
-    padding: 30px 35px;
-    width: 270px;
-    height: 435px;
-    background-color: white;
-    margin: 0px 90px 0px 90px;
-
-}
-
-.friends__Woody {
-    border-radius: 9px;
-    padding: 30px 35px;
-    width: 270px;
-    height: 435px;
-    background-color: white;
-    margin: 0px 90px 0px 90px;
-
-}
-
-.friends__btn {
-
-    border-radius: 100px;
-    padding: 15px 45px;
-    width: 261px;
-    height: 52px;
-    margin-left: 546px;
-    background-color: rgb(233, 209, 165);
-    margin-top: 100px;
-    color: black;
-
-
-}
-
-
 
 
 
@@ -375,7 +321,7 @@ a {
 
 .list-item {
     justify-content: space-between;
-    column-gap: 100px;
+    column-gap: 120px;
 }
 
 .helper__subimg-wrap {}
